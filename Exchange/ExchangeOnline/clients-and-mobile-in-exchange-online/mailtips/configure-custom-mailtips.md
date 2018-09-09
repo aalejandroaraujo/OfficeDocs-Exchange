@@ -102,7 +102,7 @@ Set-<RecipientType> -MailTipTranslations @{Add="<culture1>:<localized text 1>","
 For example, suppose the mailbox named Notifications currently has the MailTip: "This mailbox is not monitored." To add the Spanish translation, run the following command:
   
 ```
-Set-Mailbox -MailTipTranslations @{Add="ES:Esta caja no se supervisa."}
+Set-Mailbox -MailTipTranslations @{Add="ES:Este buzón no se supervisa."}
 ```
 
 ### How do you know this worked?
